@@ -368,6 +368,31 @@ label.tc{
         margin: 3% 0;
     }
 
+    .text-fields.fname:after{
+        position: relative;
+        margin: 3%
+    }
+    .text-fields.lname:after{
+        content: 'Last name';
+        background-color: #fff;
+        position: relative;
+        padding: 0 7% 0% 2%;
+        left: -275px;
+        width: 302px;
+        color: rgb(103, 220, 136);
+        top: -33px;
+    }
+    .text-fields.dob:after{
+        content: 'Date of birth';
+        background-color: #fff;
+        position: relative;
+        padding: 0 7% 0% 2%;
+        left: -260px;
+        width: 342px;
+        color: rgb(103, 220, 136);
+        top: -33px;
+    }
+
     input {
         width: 100%;
     }
