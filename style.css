@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f9;
+}
+.container{
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    height: 623px;
+    box-shadow: 0 12px 18px rgba(54,176,138,0.005);
+    border-radius: 6px;
+    background: #fff;
+}
+.login-link{
+    background-color: rgb(144, 230, 168);
+   background-image: url('bg-shapes.svg');
+   background-position: bottom left;
+   background-repeat: no-repeat;
+   width: 10%;
+   height: 200px;
+   padding: 3%;
+}
+.signup-form-container{
+    width: 70%;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    font-weight: 600;
+    color: rgb(22, 55, 5);
+}
+.side-big-heading{
+    font-weight: 800;
+    color: rgb(22, 55, 5);
+    font-size: 1.7rem;
+    margin: 0% 0 5%;
+}
+.primary-bg-text{
+    color: rgb(39, 98, 10);
+    font-weight: 500;
+    text-align: center;
+}
+a.loginbtn{
+    text-decoration: none;
+    color: rgb(22, 55, 5);
+    width: 25%;
+    font-weight: 200;
+    display: inline-block;
+    margin: 0% 35%;
+    text-align: center;
+    border: 2px solid rgb(22, 55, 5);
+    border-radius: 20px;
+    padding: 1% 0;
+}
+a.loginbtn:hover{
+    color: rgb(144, 230, 168);
+    background-color: rgb(22, 55, 5);
+}
+.big-heading{
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(103, 220, 136);
+}
+.social-media-platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-platform a{
+    color: #1a1d86;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-flex;
+    border: 1px solid #e0e3e2;
+    margin: 12%;
+    padding: 13%;
+}
+.progress-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0;
+    width: 70%;
+}
+.progress-bar .stage{
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.progress-bar .tool-tip{
+    color: rgb(22, 55, 5);
+    font-weight: 600;
+}
+.stageno{
+    margin: 6% 0;
+    padding: 2% 7%;
+    border-radius: 50%;
+    background-color: #f5f5f9;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    margin: 4% 0;
+}
+.text-fields{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2%;
+    margin: 0 2%;
+    width: 46%;
+    border-radius: 4px;
+    color: #84848d;
+}
+.text1-fields{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2%;
+    margin: 0 2%;
+    width: 46%;
+    border-radius: 4px;
+    color: #84848d;
+}
+input{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    width: 200%;
+    margin-left: 4%;
+    font-size: 1rem;
+}
+.signup-form-content{
+    width: 100%;
+    padding: 0 3%;
+}
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field,input::placeholder{
+    background-color: #fff;
+    color: #84848d;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url('bx-cake.svg') no-repeat;
+    height: 20px;
+    width: 20px;
+}
+.text-fields.fname:after{
+    content: 'First name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 7% 0% 2%;
+    left: -270px;
+    width: 334px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.text-fields.lname:after{
+    content: 'Last name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 7% 0% 2%;
+    left: -275px;
+    width: 302px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.text-fields.dob:after{
+    content: 'Date of birth';
+    background-color: #fff;
+    position: relative;
+    padding: 0 7% 0% 2%;
+    left: -260px;
+    width: 342px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.gender-selection{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    width: 100%;
+}
+.field-heading{
+    color: rgb(103, 220, 136);
+    width: 20%;
+}
+.gender-selection label{
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    color: #84848d;
+    width: 20%;
+}
+input[type="radio"]{
+    accent-color: rgb(103, 220, 136);
+    margin-right: 6%;
+}
+.pagination-btns{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    padding: 0 4%;
+}
+.nextPage, .previousPage{
+    background-color: rgb(103, 220, 136);
+    color: #fff;
+    width: 25%;
+    cursor: pointer;
+    padding: 2%;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.nextPage:hover, .previousPage:hover{
+    background-color: rgb(103, 220, 136);
+}
+.text-fields.phone:after{
+    content: 'Phone number';
+    background-color: #fff;
+    position: relative;
+    left: -230px;
+    padding-left: 7px;
+    width: 492px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.text-fields.email:after{
+    content: 'Email Id';
+    background-color: #fff;
+    position: relative;
+    left: -250px;
+    padding-left: 7px;
+    text-align: left;
+    width: 388px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.text-fields.password:after, .text-fields.confirmpassword:after{
+    content: 'Enter Password';
+    background-color: #fff;
+    position: relative;
+    left: -215px;
+    padding-left: 7px;
+    width: 541px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.text-fields.text-fields.confirmpassword:after{
+    content: 'Confirm Password';
+    width: 748px;
+    left: -180px;
+    padding-left: 7px;
+}
+
+.text1-fields.email1:after{
+    content: 'Email Id';
+    background-color: #fff;
+    position: relative;
+    padding-left: 200px;
+    width: 541px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+.text1-fields.password1:after{
+    content: 'Enter Password';
+    background-color: #fff;
+    position: relative;
+    padding-left: 150px;
+    width: 541px;
+    color: rgb(103, 220, 136);
+    top: -33px;
+}
+
+
+.tc-container input{
+    width: 4%;
+    margin-left: 4%;
+    accent-color: rgb(103, 220, 136);
+}
+.tc a{
+    text-decoration: none;
+    color: rgb(103, 220, 136);
+}
+label.tc{
+    margin-left: 4%;
+}
+.login-form-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 20px;
+}
+.login-form-contents .text1-fields{
+    margin: 3% 2%;
+    width: 70%;
+    padding: 3%;
+}
+.login-form-contents .text1-fields.email1:after{
+    left: -323px;
+}
+.login-form-contents .text1-fields.password1:after{
+    left: -294px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Add your existing styles here */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .login-link {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .signup-form-container {
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    .progress-bar {
+        display: flex;
+        justify-content: space-around; /* Updated */
+        align-items: center;
+        margin: 4% 0;
+    }
+    
+    .progress-bar .stage {
+        flex: 1; /* Updated */
+        text-align: center;
+        margin: 0 1%; /* Updated */
+    }
+
+    .button-container {
+        flex-direction: column;
+        margin: 4% 0;
+    }
+
+    .text-fields {
+        width: 100%;
+        margin: 3% 0;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .pagination-btns {
+        padding: 10px;
+    }
+
+    .previousPage {
+        width: 60%;
+        margin-right: 10% 0;
+    }
+
+    .nextPage {
+        width: 60%;
+        margin-left: 10% 0;
+    }
+
+    .login-form-contents .text1-fields {
+        width: 100%;
+        margin: 3% 0;
+    }
+}
